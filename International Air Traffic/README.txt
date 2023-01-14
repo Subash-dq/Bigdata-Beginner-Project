@@ -1,3 +1,4 @@
 Hive
 Jupyter
 Hue
+Scala

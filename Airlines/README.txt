@@ -2,7 +2,6 @@ Source : https://data.govt.in
 Hive
 Jupyter
 Hue
-Scala
 
 Steps:
 1. Copy csv file from local storage to hdfs :

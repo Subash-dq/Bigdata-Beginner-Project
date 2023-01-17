@@ -3,7 +3,8 @@ Hive
 Jupyter
 Hue
 
-Steps:
+Steps to transfer data from local storage to Hive:
+
 1. Copy csv file from local storage to hdfs :
 knull@LAPTOP-J5UEVEDO:~$ hadoop fs -copyFromLocal /home/knull/karthikesavan/Airlines.csv /user/storage/Airlines/Airlines.csv
 

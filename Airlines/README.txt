@@ -1,7 +1,5 @@
 Source : https://data.govt.in
-Hive
-Jupyter
-Hue
+
 
 Steps to transfer data from local storage to Hive:
 

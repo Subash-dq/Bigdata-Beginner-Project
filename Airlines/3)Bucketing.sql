@@ -30,7 +30,7 @@ insert into table bk_airlines
     select avg(JANUARY_PASSENGERS_TO_INDIA) 
     FROM bk_airlines TABLESAMPLE(BUCKET 1 OUT OF 3 ON JANUARY_PASSENGERS_TO_INDIA) s;
 
-
+-- To sample bucket randomly 
 
 insert into table bk_airlines
     select avg(JANUARY_PASSENGERS_TO_INDIA) 

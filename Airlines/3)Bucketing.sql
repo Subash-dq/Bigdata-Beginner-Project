@@ -25,9 +25,12 @@ create table bk_airlines(
     COMMENT 'Bucket table for Airlines' 
     CLUSTERED BY (JANUARY_PASSENGERS_TO_INDIA) INTO 3 BUCKETS STORED AS textfile;
 
+-- To sample specific bucket
 insert into table bk_airlines
     select avg(JANUARY_PASSENGERS_TO_INDIA) 
     FROM bk_airlines TABLESAMPLE(BUCKET 1 OUT OF 3 ON JANUARY_PASSENGERS_TO_INDIA) s;
+
+
 
 insert into table bk_airlines
     select avg(JANUARY_PASSENGERS_TO_INDIA) 

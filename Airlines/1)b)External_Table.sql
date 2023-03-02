@@ -1,6 +1,6 @@
 create external table project.airlines
  (Category string,
- SL_No int,
+ SL_No int,  
  AIRLINE_NAME string,
  JANUARY_PASSENGERS_TO_INDIA int,
  JANUARY_PASSENGERS_FROM_INDIA int,

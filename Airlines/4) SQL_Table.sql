@@ -1,1 +1,0 @@
-select * from airlines where MARCH_FREIGHT_TO_INDIA = '2000';

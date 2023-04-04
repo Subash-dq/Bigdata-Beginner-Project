@@ -1,2 +1,0 @@
-# Bigdata-Beginner-Project
-  

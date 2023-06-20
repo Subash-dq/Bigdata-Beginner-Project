@@ -1,14 +1,15 @@
-create database dqlabs;
-create table admin
-( id int,
-domain varchar(50),
-credentials varchar(50),
-organisation varchar(50),
-default_connection_id varchar(50),
-created_date varchar(50),
-connectors varchar(50),
-license_end_date varchar(50),
-license_start_date varchar(50));
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+DROP TABLE IF TABLE admin;
+
+
 
 create table application
 ( id int,
@@ -670,3 +671,5 @@ created_date varchar(50),
 connectors varchar(50),
 license_end_date varchar(50),
 license_start_date varchar(50));
+
+

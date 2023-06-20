@@ -734,4 +734,7 @@ connectors varchar(50),
 license_end_date varchar(50),
 license_start_date varchar(50));
 
-
+ALTER TABLE table_name RENAME TO new_table_name;
+ALTER TABLE table_name RENAME TO new_table_name;
+ALTER TABLE table_name RENAME TO new_table_name;
+ALTER TABLE table_name RENAME TO new_table_name;
